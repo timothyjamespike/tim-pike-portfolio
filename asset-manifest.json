@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/timothyjamespike/tim-pike-portfolio/static/css/main.185e0e5e.chunk.css",
-    "main.js": "/timothyjamespike/tim-pike-portfolio/static/js/main.986d18e3.chunk.js",
-    "main.js.map": "/timothyjamespike/tim-pike-portfolio/static/js/main.986d18e3.chunk.js.map",
-    "runtime-main.js": "/timothyjamespike/tim-pike-portfolio/static/js/runtime-main.933a0ffe.js",
-    "runtime-main.js.map": "/timothyjamespike/tim-pike-portfolio/static/js/runtime-main.933a0ffe.js.map",
-    "static/js/2.ec4077e7.chunk.js": "/timothyjamespike/tim-pike-portfolio/static/js/2.ec4077e7.chunk.js",
-    "static/js/2.ec4077e7.chunk.js.map": "/timothyjamespike/tim-pike-portfolio/static/js/2.ec4077e7.chunk.js.map",
-    "static/js/3.035816f5.chunk.js": "/timothyjamespike/tim-pike-portfolio/static/js/3.035816f5.chunk.js",
-    "static/js/3.035816f5.chunk.js.map": "/timothyjamespike/tim-pike-portfolio/static/js/3.035816f5.chunk.js.map",
-    "index.html": "/timothyjamespike/tim-pike-portfolio/index.html",
-    "static/css/main.185e0e5e.chunk.css.map": "/timothyjamespike/tim-pike-portfolio/static/css/main.185e0e5e.chunk.css.map",
-    "static/js/2.ec4077e7.chunk.js.LICENSE.txt": "/timothyjamespike/tim-pike-portfolio/static/js/2.ec4077e7.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/timothyjamespike/tim-pike-portfolio/static/media/wave-bg.9b08fce9.svg"
+    "main.css": "/tim-pike-portfolio/static/css/main.722bbadb.chunk.css",
+    "main.js": "/tim-pike-portfolio/static/js/main.986d18e3.chunk.js",
+    "main.js.map": "/tim-pike-portfolio/static/js/main.986d18e3.chunk.js.map",
+    "runtime-main.js": "/tim-pike-portfolio/static/js/runtime-main.1f2f2d68.js",
+    "runtime-main.js.map": "/tim-pike-portfolio/static/js/runtime-main.1f2f2d68.js.map",
+    "static/js/2.ec4077e7.chunk.js": "/tim-pike-portfolio/static/js/2.ec4077e7.chunk.js",
+    "static/js/2.ec4077e7.chunk.js.map": "/tim-pike-portfolio/static/js/2.ec4077e7.chunk.js.map",
+    "static/js/3.035816f5.chunk.js": "/tim-pike-portfolio/static/js/3.035816f5.chunk.js",
+    "static/js/3.035816f5.chunk.js.map": "/tim-pike-portfolio/static/js/3.035816f5.chunk.js.map",
+    "index.html": "/tim-pike-portfolio/index.html",
+    "static/css/main.722bbadb.chunk.css.map": "/tim-pike-portfolio/static/css/main.722bbadb.chunk.css.map",
+    "static/js/2.ec4077e7.chunk.js.LICENSE.txt": "/tim-pike-portfolio/static/js/2.ec4077e7.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/tim-pike-portfolio/static/media/wave-bg.9b08fce9.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.933a0ffe.js",
+    "static/js/runtime-main.1f2f2d68.js",
     "static/js/2.ec4077e7.chunk.js",
-    "static/css/main.185e0e5e.chunk.css",
+    "static/css/main.722bbadb.chunk.css",
     "static/js/main.986d18e3.chunk.js"
   ]
 }
