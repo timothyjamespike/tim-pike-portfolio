@@ -1,0 +1,130 @@
+  /* Hero */
+
+  .hero-container {
+    grid-column-start: col-1-start;
+    grid-column-end: span end;
+    grid-row-start: row-2-start;
+    grid-row-end: span row-4-start;
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 500px;
+    grid-template-rows: 40px 1fr 1fr 40px;
+    background-image: url('../images/hero-triangles.svg');
+    background-size: 1200px 600px;
+    background-repeat: no-repeat;
+    background-color: $color-white;
+    z-index: 2;
+    padding: 0 $gutter-padding 0 $gutter-padding;
+  }
+  
+  .hero-main-content {
+    height: 40%;
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    grid-row-start: 2;
+    grid-row-end: span 2;
+    align-self: center;
+    background-color: rgba($color-white, 0.644);
+    min-width: 850px;
+}
+
+.hero-main-image {
+    margin-top: 60px;
+    padding: 20px;
+    width: 380px;
+    height: 380px;
+    background-image: url('../images/tim-pike-pacman.jpg');
+    background-size: cover;
+    border-style: solid;
+    border-color: $color-black;
+    border-width: 20px;
+    z-index: 5;
+}
+
+.hero-description {
+    padding-top: 20px;
+    font-weight: 900;
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    grid-row-end: span 3;
+    padding-left: 500px;
+    border-color: $color-black;
+    // font-size: 20px;
+    min-width: 850px;
+}
+
+.hero-eyebrow-title-container {
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    grid-row-start: 2;
+    grid-row-end: span 3;
+    background-color: rgba($color-white, 0.644);
+    min-width: 850px;
+    height: 180px;
+}
+
+.hero-eyebrow {
+    font-size: 20px;
+    font-weight: 900;
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    grid-row-end: span 3;
+    padding-left: 300px;
+    padding-top: 80px;
+    // margin-bottom: 300px;
+    // padding-bottom: 300px;
+    min-width: 300px;
+}
+
+.hero-title {
+    font-size: 72px;
+    font-weight: 900;
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    grid-row-end: span 3;
+    padding-left: 300px;
+    padding-top: 0px;
+    min-width: 300px;
+}
+
+.writer-bullet {
+    list-style-type: "\1F4DD";
+}
+
+.designer-bullet {
+    list-style-type: "🎨";
+}
+
+.strategist-bullet {
+    list-style-type: "♟️";
+}
+
+// .contact-button-container {
+    
+//     // :hover {
+//     //     background-color: $color-primary-blue;
+//     //     color: $color-white;
+//     // }
+// }
+
+.contact-tim-button {
+    // padding-left: 500px;
+    background-color: $color-white;
+    color: $color-black;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: $color-black;
+    // box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
+
+    :hover {
+        background-color: $color-primary-blue;
+        color: $color-white;
+    }
+}

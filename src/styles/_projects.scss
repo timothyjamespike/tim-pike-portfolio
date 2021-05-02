@@ -1,0 +1,89 @@
+/* Projects */
+
+.projects-container {
+    grid-column-start: col-1-start;
+    grid-column-end: span end;
+    grid-row-start: row-3-start;
+    grid-row-end: span row-7-start;
+    background-color: rgba(255, 255, 255, 0);
+    z-index: 3;
+  }
+
+  .projects-nav-header {
+    grid-column-start: col-1-start;
+    grid-column-end: span end;
+    grid-row-start: row-3-start;
+    grid-row-end: span row-4-start;
+    padding: 0 $gutter-padding 0 $gutter-padding;
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .projects-nav-subheader {
+    padding: 0 $gutter-padding 0 $gutter-padding;
+    font-size: 20px;
+    line-height: 2;
+    background-color: $color-white;
+  }
+
+  .projects-nav-container {
+    grid-column-start: col-1-start;
+    grid-column-end: span end;
+    grid-row-start: row-4-start;
+    grid-row-end: span row-5-start;
+    padding: 0 $gutter-padding 0 $gutter-padding;
+    background-color: $color-white;
+  }
+
+  .project-buttons-container {
+      grid-column-start: col-2-start;
+      grid-column-end: span col-6-start;
+      max-height: 20px;
+  }
+
+  .project-button {
+      font-size: 20px;
+      padding: 15px;
+      margin: 10px;
+      background: $color-white;
+      border-width: 0px;
+      border-radius: 5px;
+
+      &:hover {
+          background: $color-primary-blue;
+          color: $color-white;
+      }
+
+      &:active {
+        background: $color-primary-blue;
+        color: $color-white;
+    }
+
+    &:focus {
+        background: $color-primary-blue;
+        color: $color-white;
+    }
+    
+  }
+
+  .project-header {
+    grid-column-start: col-1-start;
+    grid-column-end: span end;
+    height: 70px;
+    grid-row-start: row-5-start;
+    grid-row-end: span row-6-start;
+    padding: 30px $gutter-padding 0 $gutter-padding;
+    background: $color-dark-gray;
+    color: $color-white;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .project-container {
+    grid-column-start: col-1-start;
+    grid-column-end: span end;
+    grid-row-start: row-6-start;
+    grid-row-end: span row-7-start;
+    padding: 0 $gutter-padding 0 $gutter-padding;
+    background-color: $color-white;
+  }

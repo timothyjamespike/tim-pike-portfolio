@@ -1,0 +1,202 @@
+
+@import './variables';
+@import './hero';
+@import './projects';
+@import './contentGuidance';
+@import './contentFiltering';
+@import './designSys';
+@import './helpContent';
+
+* {
+    font-size: 28px;
+    font-family: $lexend-deca, sans-serif;
+    color: $color-black;
+}
+
+button:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    &:hover, &:active {
+        cursor: pointer;
+    }
+}
+
+li {
+  padding-inline-start: 1ch;
+}
+
+button {
+    &:hover, &:active {
+        cursor: pointer;
+    }
+}
+
+/* Site Layout Grid */
+
+.site-overall-container {
+    display: grid;
+    grid-template-columns: 
+    [col-1-start] $gutter-left-padding
+    [col-2-start] 1fr
+    [col-3-start] 1fr 
+    [col-4-start] 1fr 
+    [col-5-start] 1fr 
+    [col-6-start] 1fr 
+    [col-7-start] $gutter-right-padding
+    [end];
+    grid-template-rows: 
+    [row-1-start] 90px 
+    [row-2-start] 580px 
+    [row-3-start] 100px
+    [row-4-start] 350px
+    [row-5-start] 140px
+    [row-6-start] auto
+    [row-7-start] 100px
+    [end]
+}
+
+/* Gutters */
+
+.left-gutter {
+  grid-column-start: col-1-start;
+  grid-column-end: span col-2-start;
+  grid-row-start: row-1-start;
+  grid-row-end: span end;
+  background-color: $color-white;
+}
+
+.right-gutter {
+    grid-column-start: col-6-start;
+    grid-column-end: span end;
+    grid-row-start: row-1-start;
+    grid-row-end: span end;
+    background-color: $color-white;
+}
+
+/* Top nav */
+
+.top-nav-container {
+    grid-column-start: col-1-start;
+    grid-column-end: span end;
+    grid-row-start: row-1-start;
+    grid-row-end: span row-3-start;
+    background-color: $color-black;
+    padding-top: 15px;
+    // overflow: hidden;
+    // height: 100%;
+    // width: 100%;
+    // top: 0;
+    // left: 0;
+
+    :hover {
+        background: none;
+    }
+}
+
+.top-nav-content {
+    // position: fixed;
+    padding: 0 $gutter-padding 0 $gutter-padding;
+    background: $color-black;
+    
+    overflow: hidden;
+
+    :hover {
+        background: none;
+    }
+}
+
+.top-nav-items-container {
+    :first-child {
+        padding-left: 0px;
+    }
+
+    :hover {
+        background: none;
+    }
+}
+
+.top-nav-eyebrow-left {
+    padding-left: 70px;
+    color: $color-white;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.top-nav-eyebrow-right {
+    min-width: 1000px;
+    padding-left: 125px;
+    color: $color-white;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.top-nav-item {
+    // Button element
+    text-align: center;
+    background: none;
+    padding-left: 40px;
+    padding-bottom: 0px;
+    border-style: none;
+
+    :hover {
+        background: $color-primary-blue;
+    }
+
+  }
+
+  .top-nav-link {
+    // Span/div element within button
+      color: $color-white;
+      font-size: 30px;
+    //   padding: 5px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      padding-right: 0px;
+      border-width: 0px;
+      border-radius: 5px;
+      z-index: 5;
+    //   background-size: cover;
+
+      :hover {
+        background: $color-primary-blue;;
+    }
+
+       :focus {
+        outline: none;
+    }
+
+  }
+
+  .pipe-divider {
+      color: $color-white;
+      padding-left: 35px;
+      font-size: 36px;
+  }
+
+  /* Footer */
+
+  .footer-container {
+    grid-column-start: col-1-start;
+    grid-column-end: span end;
+    grid-row-start: row-7-start;
+    grid-row-end: span end;
+    padding: 0 $gutter-padding 0 $gutter-padding;
+    background: $color-black;
+  }
+
+  .footer-content {
+      padding-top: 30px;
+      color: $color-white;
+  }
+
+  .footer-content-text {
+      font-size: 20px;
+      color: $color-white;
+  }
+
+    

@@ -1,0 +1,92 @@
+/* Content filtering project */
+
+.content-filtering-container {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 500px 600px;
+    grid-template-rows: 430px 430px;
+    background-image: url('../images/wave-bg.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: $color-white;
+}
+
+.content-filtering-description-subheader {
+    font-weight: 800;
+}
+
+.content-filtering-description-container {
+    padding: 20px;
+    font-size: 22px;
+
+    & .description-1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    & .description-2 {
+        margin-top: 40px;
+        border-left: solid $color-black 8px;
+        background: rgba($color-dark-gray, 0.2);
+        border-radius: 3px;
+    }
+
+    & .description-4 {
+        padding: 20px;
+        text-align: center;
+        background-color: rgba($color-black, 0.8);
+        color: $color-white;
+        height: 100%;
+    }
+ 
+}
+
+.customer-problem-eyebrow {
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-weight: 900;
+    text-align: bottom;
+}
+
+.content-filtering-images-container {
+    grid-column-start: 2;
+    grid-column-end: span 3;
+    grid-row-start: 1;
+    grid-row-start: span 3;
+    padding: 20px;
+    margin: 20px;
+}
+
+.content-filtering-image-1 {
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 330px;
+    height: 240px;
+    background-image: url('../images/content-filtering-gif-01.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 5px;
+    border-color: $color-white;
+    border-radius: 3px;
+}
+
+.content-filtering-image-3 {
+    margin-top: 55px;
+    width: 86%;
+    height: 86%;
+    background-image: url('../images/content-filtering-img-02.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 5px;
+    border-color: $color-black;
+    border-radius: 3px;
+}
+
+.strong-tags {
+    font-size: 22px;
+    font-weight: 900;
+}
