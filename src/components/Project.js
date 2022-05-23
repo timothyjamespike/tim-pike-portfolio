@@ -7,19 +7,23 @@ import HelpContentProject from './HelpContentProject';
 function Project(props) {
  const projectName = props.projectName;
 
- if (projectName === "Content guidance") {
+ if (projectName === "Journeys & blueprints") {
      return (<ContentGuidanceProject/>);
  }
  
- else if (projectName === "Design systems") {
+ else if (projectName === "Accessibility") {
      return (<DesignSysProject/>);
  }
 
- else if (projectName === "Content filtering") {
+ else if (projectName === "Content patterns") {
      return (<ContentFilteringProject/>);
  }
+ 
+ else if (projectName === "Balancing feedback") {
+     return (<HelpContentProject/>);
+ }
 
- else if (projectName === "Help content") {
+ else if (projectName === "Roadmapping") {
      return (<HelpContentProject/>);
  }
 
