@@ -1,10 +1,10 @@
 import React from 'react';
-import JourneysBlueprintsProject from './ContentGuidanceProject';
-import AccessibilityProject from './DesignSysProject';
+import JourneysBlueprintsProject from './JourneysBlueprintsProject';
+import AccessibilityProject from './AccessibilityProject';
 import StorytellingProject from './StorytellingProject';
 import ContentPatternsProject from './ContentPatternsProject';
 import BalancingFeedbackProject from './BalancingFeedbackProject';
-import RoadmappingProject from './BalancingFeedbackProject';
+import RoadmappingProject from './RoadmappingProject';
 
 function Project(props) {
  const projectName = props.projectName;
