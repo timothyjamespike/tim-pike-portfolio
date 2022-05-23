@@ -2,12 +2,12 @@ import React, {useState} from 'react';
 import Project from './Project';
 
 const ProjectSwitcher = () => {
-    const [project, setProject] = useState("Content filtering")
+    const [project, setProject] = useState("Journeys & blueprints")
     // const handleGuidanceClick = () => setProject("Content guidance");
-    const handleDesignSysClick = () => setProject("Design systems");
-    const handleContentFilterClick = () => setProject("Content filtering")
-    const handleHelpContentClick = () => setProject("Help content")
-    // const handleContentLibClick = () => setProject("Content library")
+    const handleDesignSysClick = () => setProject("Accessibility");
+    const handleContentFilterClick = () => setProject("Storytelling")
+    const handleHelpContentClick = () => setProject("Content patterns")
+    const handleContentLibClick = () => setProject("Roadmapping")
     
   
     return (
