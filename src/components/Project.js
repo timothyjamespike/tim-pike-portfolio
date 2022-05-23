@@ -14,6 +14,10 @@ function Project(props) {
  else if (projectName === "Accessibility") {
      return (<DesignSysProject/>);
  }
+ 
+ else if (projectName === "Storytelling") {
+     return (<StorytellingProject/>);
+ }
 
  else if (projectName === "Content patterns") {
      return (<ContentFilteringProject/>);
