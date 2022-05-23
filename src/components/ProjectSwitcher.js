@@ -3,10 +3,10 @@ import Project from './Project';
 
 const ProjectSwitcher = () => {
     const [project, setProject] = useState("Journeys & blueprints")
-    // const handleGuidanceClick = () => setProject("Content guidance");
-    const handleDesignSysClick = () => setProject("Accessibility");
+    const handleDesignSysClick = () => setProject("Accessibility")
     const handleContentFilterClick = () => setProject("Storytelling")
     const handleHelpContentClick = () => setProject("Content patterns")
+    const handleGuidanceClick = () => setProject("Balancing feedback")
     const handleContentLibClick = () => setProject("Roadmapping")
     
   
