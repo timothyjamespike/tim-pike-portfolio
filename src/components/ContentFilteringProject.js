@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ContentFilteringProject = () => {
+const JourneysBlueprintsProject = () => {
     return (
         <div className="content-filtering-container">
             
@@ -9,13 +9,13 @@ const ContentFilteringProject = () => {
             <div clasName="customer-problem"></div>
             <div className="content-filtering-description-container description-2">
             <span className="customer-problem-eyebrow">Customer Problem</span>
-             "This content's too easy for me! This page doesn't have everything I need!"
+             "I'm just not ready to move to cloud. There are so many areas where I'm getting stuck!"
             </div>
             <div className="content-filtering-description-container description-3">
-            Our team collected categories of customer metadata, such as <span className="strong-tags">job type</span>, <span className="strong-tags">industry</span>, and <span className="strong-tags">role</span>.
+            With the help of a service designer, our team consolidated <span className="strong-tags">user journeys</span> from disparate teams into an end-to-end blueprint.
             </div>
             <div className="content-filtering-description-container description-4">
-            From this data, we designed colorful "chips" that let customers pick and choose the content they want to see.
+            This blueprint helped define the content guidance strategy for customers migrating from on-premises to cloud products.
             <div className="content-filtering-image-1"></div>
             <div className="content-filtering-image-2"></div>
             </div>
