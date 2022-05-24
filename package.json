@@ -1,6 +1,6 @@
 {
   "homepage": "https://timothyjamespike.github.io/tim-pike-portfolio",
-  "name": "test-app",
+  "name": "tim-pike-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
