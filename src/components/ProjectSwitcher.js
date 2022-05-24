@@ -8,7 +8,7 @@ const ProjectSwitcher = () => {
     const handleStorytellingClick = () => setProject("Storytelling")
     const handlePatternsClick = () => setProject("Content patterns")
     const handleFeedbackClick = () => setProject("Balancing feedback")
-    const handleContentLibClick = () => setProject("Roadmapping")
+    const handleRoadmapClick = () => setProject("Roadmapping")
     
   
     return (

@@ -10,11 +10,11 @@ function Project(props) {
  const projectName = props.projectName;
 
  if (projectName === "Journeys & blueprints") {
-     return (<ContentGuidanceProject/>);
+     return (<JourneysBlueprintsProject/>);
  }
  
  else if (projectName === "Accessibility") {
-     return (<DesignSysProject/>);
+     return (<AccessibilityProject/>);
  }
  
  else if (projectName === "Storytelling") {
@@ -22,11 +22,11 @@ function Project(props) {
  }
 
  else if (projectName === "Content patterns") {
-     return (<ContentFilteringProject/>);
+     return (<ContentPatternsProject/>);
  }
  
  else if (projectName === "Balancing feedback") {
-     return (<HelpContentProject/>);
+     return (<BalancingFeedbackProject/>);
  }
 
  else if (projectName === "Roadmapping") {
