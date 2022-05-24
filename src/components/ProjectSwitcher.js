@@ -3,28 +3,30 @@ import Project from './Project';
 
 const ProjectSwitcher = () => {
     const [project, setProject] = useState("Journeys & blueprints")
-    const handleDesignSysClick = () => setProject("Accessibility")
-    const handleContentFilterClick = () => setProject("Storytelling")
-    const handleHelpContentClick = () => setProject("Content patterns")
-    const handleGuidanceClick = () => setProject("Balancing feedback")
+    const handleJourneysClick = () => setProject("Journeys & blueprints")
+    const handleAccessibilityClick = () => setProject("Accessibility")
+    const handleStorytellingClick = () => setProject("Storytelling")
+    const handlePatternsClick = () => setProject("Content patterns")
+    const handleFeedbackClick = () => setProject("Balancing feedback")
     const handleContentLibClick = () => setProject("Roadmapping")
     
   
     return (
       <div className="projects-container">
           <div className="projects-nav-header" id="projects">
-          Tim's Projects
+          Tim's projects
           </div>
           <div className="projects-nav-subheader">
           Check out my work below so you can see what I'm all about.
           </div>
           <div className="projects-nav-container">
           <span className="project-buttons-container">
-          <button onClick={handleContentFilterClick} className="project-button">Content filtering</button>
-          <button onClick={handleDesignSysClick} className="project-button">Design systems</button>
-          <button onClick={handleHelpContentClick} className="project-button">Help content</button>
-          {/* <button onClick={handleGuidanceClick} className="project-button">Content guidance</button> */}
-          {/* <button onClick={handleContentLibClick} className="project-button">Content library</button> */}
+          <button onClick={handleJourneysClick} className="project-button">Journeys & blueprints</button>
+          <button onClick={handleAccessibilityClick} className="project-button">Accessibility</button>
+          <button onClick={handleStorytellingClick} className="project-button">Storytelling</button>
+          <button onClick={handlePatternsClick} className="project-button">Content patterns</button>
+          <button onClick={handleFeedbackClick} className="project-button">Balancing feedback</button>
+          <button onClick={handleRoadmapClick} className="project-button">Roadmapping</button>
           </span>
         <div>
           
