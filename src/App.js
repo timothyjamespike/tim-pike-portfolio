@@ -6,7 +6,7 @@ import ProjectSwitcher from './components/ProjectSwitcher';
 
 function App() {
   return (
-    <div>
+    <div id='root'>
       <div className="site-overall-container">
       <div className="left-gutter"/>
       {/* <div clasName="col-2"/>
